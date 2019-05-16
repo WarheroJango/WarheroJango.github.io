@@ -1,8 +1,101 @@
-body {
-	background-color: #FF0000;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+	display: inline;
+	}
+
+	a {
+	font-size: 42px
+	}
+	
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: pink;
+}
+	
+img{
+
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+img1{
+	float: left;
+}	
+	
 h1 {
+	color:white;
 	color: orange;
 	text-align:center;
+	font-size: 55px
 }
+
+h2 {
+	color:white;
+	text-align:center;
+	font-family:verdana;
+	
+}
+
+ul {
+	color: orange;
+	text-align:center;
+
+}
+
+body{
+	background-image: url("Circle.jpg");
+}
+
+p {
+		color:white;
+		text-align:middle;
+		font-family:verdana;
+
+}
+
+p1 {
+	color:white;
+	font-size:40px;
+	text-align:middle;
+}
+
+p2 {
+	color:white;
+	font-size:28px;
+	font-family:verdana;
+	text-align:middle;
+	background-color:grey;
+}
+
+p3 {
+		color:white;
+	font-family:verdana;
+	text-align:middle;
+	background-color:grey;
+	
+}
+
+p4 {
+		color:white;
+	font-family:verdana;
+	text-align:left;
+	background-color:grey;
+	
+}
+
+p5 {
+	color:white;
+	font-size:50px;
+}
+
+
+
+

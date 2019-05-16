@@ -3,9 +3,52 @@
 	<head>
 		<title>HTML Tutorial</title>
 		<link rel="stylesheet" href="style.css">
+		
+		    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Tanks!</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web.json", {onProgress: UnityProgress});
+    </script>
 	</head>
 	<body>
 		<h1>A BONUS!?!?</h1>
+		
+		 <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="page2.html">About</a></li>
+  <li><a href="page3.html">History</a></li>
+  <li><a href="page4.html">Legions</a></li>
+  <li><a href="page5.html">Bonus</a></li>
+ </ul>
+		<div class ="vertical-line"style="height: 425px;">
+	<p1>As unexpected as it seems this hosts creator has seen fit to
+		share his works with the greater cosmos by placing this simple
+		tanks game upon this website.
+		it is far cry of the infernal magifisence of the Dark Gods designs
+		however as small steps corrupt so too is the way paved for their lesser
+		servants to achive the chance at greatness.</p1> 
+		</div>
+		
+	<div class ="vertical-line"style="height: 555x;">
+	</div>
+	
+		
+		 <div class="webgl-content"style="height: 225px;">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Tanks!</div>
+      </div>
+    </div>
+		
+		
+		
 	</body>
 
 </html>
